@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AD0F8236223BB22000898FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F8235223BB22000898FEB /* AppDelegate.swift */; };
-		AD0F8238223BB22000898FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F8237223BB22000898FEB /* ViewController.swift */; };
+		AD0F8238223BB22000898FEB /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F8237223BB22000898FEB /* TodoListViewController.swift */; };
 		AD0F823B223BB22000898FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0F8239223BB22000898FEB /* Main.storyboard */; };
 		AD0F823D223BB24F00898FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0F823C223BB24F00898FEB /* Assets.xcassets */; };
 		AD0F8240223BB24F00898FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0F823E223BB24F00898FEB /* LaunchScreen.storyboard */; };
+		AD0F8248223BBB0F00898FEB /* VideosDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F8247223BBB0D00898FEB /* VideosDetails.swift */; };
+		AD91C7A022424D6A00B831B4 /* YouTubePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91C79F22424D6A00B831B4 /* YouTubePlayerView.swift */; };
+		ADC4E9CD223FC3F70031210A /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4E9CC223FC3F70031210A /* ToDoItemCell.swift */; };
+		B1126F04E47B1276F9FB5822 /* Pods_NSUI_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C028946ACDAD30207B77693 /* Pods_NSUI_TV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345668402280FD9736EC93FA /* Pods-NSUI TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSUI TV.release.xcconfig"; path = "Target Support Files/Pods-NSUI TV/Pods-NSUI TV.release.xcconfig"; sourceTree = "<group>"; };
+		6C028946ACDAD30207B77693 /* Pods_NSUI_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSUI_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0F8232223BB22000898FEB /* NSUI TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUI TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0F8235223BB22000898FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD0F8237223BB22000898FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0F8237223BB22000898FEB /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		AD0F823A223BB22000898FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD0F823C223BB24F00898FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0F823F223BB24F00898FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0F8241223BB24F00898FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0F8247223BBB0D00898FEB /* VideosDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosDetails.swift; sourceTree = "<group>"; };
+		AD91C79F22424D6A00B831B4 /* YouTubePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayerView.swift; sourceTree = "<group>"; };
+		ADC4E9CC223FC3F70031210A /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
+		DFCAEF29B73D039DFFE1CDF8 /* Pods-NSUI TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSUI TV.debug.xcconfig"; path = "Target Support Files/Pods-NSUI TV/Pods-NSUI TV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1126F04E47B1276F9FB5822 /* Pods_NSUI_TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6990475E96CC3B2AD57AD905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C028946ACDAD30207B77693 /* Pods_NSUI_TV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BEAC054FBE79F73FC206CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFCAEF29B73D039DFFE1CDF8 /* Pods-NSUI TV.debug.xcconfig */,
+				345668402280FD9736EC93FA /* Pods-NSUI TV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD0F8229223BB21F00898FEB = {
 			isa = PBXGroup;
 			children = (
 				AD0F8234223BB22000898FEB /* NSUI TV */,
 				AD0F8233223BB22000898FEB /* Products */,
+				9BEAC054FBE79F73FC206CB0 /* Pods */,
+				6990475E96CC3B2AD57AD905 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				AD0F8235223BB22000898FEB /* AppDelegate.swift */,
-				AD0F8237223BB22000898FEB /* ViewController.swift */,
+				AD0F8237223BB22000898FEB /* TodoListViewController.swift */,
+				AD91C79F22424D6A00B831B4 /* YouTubePlayerView.swift */,
+				AD0F8247223BBB0D00898FEB /* VideosDetails.swift */,
 				AD0F8239223BB22000898FEB /* Main.storyboard */,
 				AD0F823C223BB24F00898FEB /* Assets.xcassets */,
 				AD0F823E223BB24F00898FEB /* LaunchScreen.storyboard */,
 				AD0F8241223BB24F00898FEB /* Info.plist */,
+				ADC4E9CC223FC3F70031210A /* ToDoItemCell.swift */,
 			);
 			path = "NSUI TV";
 			sourceTree = "<group>";
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0F8244223BB24F00898FEB /* Build configuration list for PBXNativeTarget "NSUI TV" */;
 			buildPhases = (
+				1DC8D0F55CCAD001B720680F /* [CP] Check Pods Manifest.lock */,
 				AD0F822E223BB22000898FEB /* Sources */,
 				AD0F822F223BB22000898FEB /* Frameworks */,
 				AD0F8230223BB22000898FEB /* Resources */,
+				C01BE8421F2B8BB47C983A65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +165,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC8D0F55CCAD001B720680F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSUI TV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01BE8421F2B8BB47C983A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NSUI TV/Pods-NSUI TV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NSUI TV/Pods-NSUI TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD0F822E223BB22000898FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0F8238223BB22000898FEB /* ViewController.swift in Sources */,
+				AD91C7A022424D6A00B831B4 /* YouTubePlayerView.swift in Sources */,
+				ADC4E9CD223FC3F70031210A /* ToDoItemCell.swift in Sources */,
+				AD0F8238223BB22000898FEB /* TodoListViewController.swift in Sources */,
+				AD0F8248223BBB0F00898FEB /* VideosDetails.swift in Sources */,
 				AD0F8236223BB22000898FEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +367,13 @@
 		};
 		AD0F8245223BB24F00898FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCAEF29B73D039DFFE1CDF8 /* Pods-NSUI TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULG737Z538;
 				INFOPLIST_FILE = "NSUI TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +387,13 @@
 		};
 		AD0F8246223BB24F00898FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345668402280FD9736EC93FA /* Pods-NSUI TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULG737Z538;
 				INFOPLIST_FILE = "NSUI TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
