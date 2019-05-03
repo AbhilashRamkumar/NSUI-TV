@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "YouTubePlayerViewController.viewDidLoad():YouTubePlayerView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videoId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

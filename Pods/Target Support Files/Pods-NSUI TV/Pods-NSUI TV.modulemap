@@ -1,0 +1,6 @@
+framework module Pods_NSUI_TV {
+  umbrella header "Pods-NSUI TV-umbrella.h"
+
+  export *
+  module * { export * }
+}
